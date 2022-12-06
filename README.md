@@ -70,4 +70,44 @@
 
    I) SIMULAR EL CIRCUITO EN EL SOFTWARE TINKERCAD
    
-   ![image](https://user-images.githubusercontent.com/105056762/204444184-646afc81-cefb-44c6-8ac5…
+   ![image](https://user-images.githubusercontent.com/105056762/204444184-646afc81-cefb-44c6-8ac5-fd513ba38556.png)
+   
+   II) ARMAR EL CIRCUITO CORRESPONDIENTE AL DIAGRAMA
+   
+   ![image](https://user-images.githubusercontent.com/105056762/204444248-d7550389-9b69-4ca2-8655-f1d63f2bc707.png)
+   
+   III) ANALIZAR CADA ELEMENTO DEL CIRCUITO
+   
+   ¿Cuál es la función de cada elemento?
+   
+   - TRANSISTOR 2N 3904: Funciona como un interruptor digital, al momento en que la fotorresistencia no detecta luz, la base recibe una pequeña señal la cual conecta el Emisor y el Colector.
+   - FOTORESISTENCIA DE 5mm: Su función es detectar los lúmenes y enviar una señal a la base del transistor.
+   - POTENCIOMETRO DE 100kΩ: Sirve para regular la sensibilidad del sensor que vendría siendo la fotorresistencia.
+   - RESISTENCIA DE 10kΩ: Para enviar señal positiva, cuando el potenciómetro se encuentra en 0, provocando una división de voltaje estable. 
+   - RESISTENCIA DE 220Ω: Limita la corriente que entra al Diodo Led para evitar que se queme.
+   - DIODO LED: Es un indicador de que nuestro circuito electrónico funciona correctamente, se enciende a la ausencia de luz y se apaga a la presencia de lúmenes. 
+
+4.	RESPUESTA A INTERROGANTES
+
+¿Qué es lo que sucede cuando La fotorresistencia recibe luz?
+
+- Cuando la luz del día ilumina la fotorresistencia, éste conduce y el voltaje en su emisor se eleva para que el nivel de voltaje en la base del transistor cause que éste no conduzca.
+
+¿Qué es lo que sucede cuando La fotorresistencia recibe no luz?
+
+- Cuando llega la noche, la fotorresistencia deja de conducir y el voltaje que aparece en su emisor disminuye. Es como si el fototransistor se hubiera desconectado.
+
+5.	VIDEO
+
+https://youtu.be/6QF0pE6R07k
+ 
+6.	CONCLUSIONES
+
+    -	El transistor es un componente electrónico que ayuda a amplificar los impulsos eléctricos dando así una mayor salida de electrones para que la pieza que está conectada al final de la conexión se pueda prender si problema alguno.
+    - El potenciómetro se puede definir como una resistencia regulable en un circuito eléctrico, los cuales son encontrados en la mayoría de los sistemas donde se requiere variar algún parámetro de operación, en el caso de esta práctica, la intensidad con la cual se enciende y se apaga el foco.
+
+ 7.	BIBLIOGRAFÍA
+    -	MecatronicaLatam. (2019). Tecnologia Led. Recuperado de: https://www.mecatronicalatam.com/es/tutoriales/electronica/componentes-electronicos/diodo/diodo-led/
+    - Practica “El Potenciómetro.” (2022). 1library.co. https://1library.co/document/zlvl80gy-practica-el-potenciometro.html 
+    - Ingenieria MecaFenix. (2022). ¿Qué es una fotorresistencia.?  Recuperado de: https://www.ingmecafenix.com/automatizacion/fotoresistencia/ 
+    - Arduino – UAEH. (2021). Sensores. Recuperado de: http://ceca.uaeh.edu.mx/informatica/oas_final/OA4/sensores.html
